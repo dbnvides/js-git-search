@@ -1,0 +1,50 @@
+.container{
+    width: 784px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.profile-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 70px 0;
+}
+
+.content-profile-user{
+    display: flex;
+    gap: var(--gap-2);
+    align-items: center;
+}
+
+.content-profile-user>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--color-brand-2);
+}
+
+.box-description-profile-user{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 300px;
+    color: var(--color-grey-7);
+}
+
+.box-description-profile-user>p{
+    color: var(--color-grey-6);
+}
+
+.box-buttons-redirect{
+    display: flex;
+    gap: var(--gap-1);
+}
+
+.list-repositories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-2);
+}
+

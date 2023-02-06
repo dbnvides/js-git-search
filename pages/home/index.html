@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/animation.css">
+    <title>Git Search</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="sec-description">
+        <div class="container-cont text-description">
+          <h1>Git Search</h1>
+          <h2>Encontre e se conecte com profissionais de forma rápida e fácil</h2>
+          <div class="recent-search">
+            <p>Achados Recentemente:</p>
+            <ul class="list-serach-recent">
+             
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-nav">
+        <div class="container-cont sec-nav-user">
+          <h2>Procurar por usuario</h2>
+          <div class="form-user">
+            <label for="input-user">Usuário github</label>
+            <input type="text" class="input-user" placeholder="Digite um usuário do github aqui...">
+            <p class="user-not-found">Usuário não encontrado</p>
+            <button class="btn-search-user" id="btn-user-git">Ver perfil do github</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="../../scripts/getItemApi.js"></script>
+    <script src="../../scripts/filter.js"></script>
+  </body>
+</html>

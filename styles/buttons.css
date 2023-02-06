@@ -1,0 +1,91 @@
+.btn-default {
+    height: 38px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-7);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weght-2);
+    font-family: var(--font-family-default);
+    border: none;
+}
+
+.back-to-search-user {
+    background-color: var(--color-grey-3);
+}
+
+.back-to-search-user:hover{
+    background-color: var(--color-grey-2);
+}
+
+.btn-default-rep {
+    height: 28px;
+    padding: 0px 8px;
+    border: 1px solid var(--color-grey-7);
+    border-radius: 4px;
+    color: var(--color-grey-7);
+    background-color: var(--color-grey-1);
+}
+
+.btn-default-rep:hover{
+    background-color: var(--color-brand-1);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-repository{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weght-2);
+    font-family: var(--font-family-default);
+    left: 27px;
+    text-decoration: none;
+}
+
+.btn-demo-site{
+    position: absolute;
+    left: 140px;
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weght-2);
+    font-family: var(--font-family-default);
+    text-decoration: none;
+}
+
+.btn-default:hover{
+    cursor: pointer;
+}
+
+.bnt-email-user:hover{
+    background-color: var(--color-brand-1);
+}
+
+.bnt-email-user-not{
+    background-color: #64253b;
+}
+
+.bnt-email-user-not:hover{
+    background-color: #64253b;
+    cursor: auto;
+}
+
+.btn-git{
+    background-color: var(--color-brand-1);
+    font-size: 24px;
+}
+
+.btn-search-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border: rgba(214, 51, 108, 0.4);
+    background: rgba(214, 51, 108, 0.4);
+    border-radius: 4px;
+    color: var(--color-grey-6);
+}

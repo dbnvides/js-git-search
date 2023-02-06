@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+h1 {
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-1);
+}
+
+h2 {
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-2);
+}
+
+p {
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-3);
+}
+
+.text-desc {
+    font-family: var(--font-family-default);
+    font-style: normal;
+    font-weight: var( --font-weght-1);
+    line-height: 150%;
+}
